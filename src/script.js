@@ -2,7 +2,7 @@
 // import {product} from './tempTest/product';
 // import {warning} from './tempTest/warning';
 
-globalThis.linter = function(json) {
+globalThis.lint = function(json) {
   let errorInfo = {
     warning: {
     textSize: {code: 'WARNING.TEXT_SIZES_SHOULD_BE_EQUAL', message: 'Размер муравьев варьируется от одного до десятков миллиметров, а все текстовые блоки должны быть одного размера.'},
